@@ -1,0 +1,49 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+package-lock.json
+yarn.lock
+.env
+.env.*  # if you use environment-specific env files (like .env.production)
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# MongoDB (local database dumps, optional)
+dump/
+*.mongodb
+
+# Build artifacts (if you build)
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Others
+coverage/       # if you use Jest or testing coverage
+public/uploads/ # if you have file uploads (adjust if needed)
+static/uploads/ # optional static folder
+
+# PM2 process logs
+pids
+*.pid
+*.seed
+
+# Docker
+docker-compose.override.yml
