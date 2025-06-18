@@ -1,0 +1,16 @@
+{
+  "name": "deep-express",
+  "version": "1.0.0",
+  "description": "Parsing requests in expressjs..",
+  "main": "app.js ",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Biraj Ghorasaine",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
